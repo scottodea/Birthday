@@ -30,6 +30,7 @@ when month_born == "11"
      days_of_month = 304
 when month_born == "12"
     days_of_month = 334
+    
 end
 puts "What day were you born?(dd)"
 day_born = gets.chomp
