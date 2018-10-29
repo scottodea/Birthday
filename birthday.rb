@@ -36,7 +36,6 @@ puts "What day were you born?(dd)"
 day_born = gets.chomp
 day_born = days_of_month.to_i + day_born.to_i
 
-
 year = Time.now.strftime'%Y'
 month= Time.now.strftime'%m'
 day = Time.now.strftime'%j'
